@@ -14,7 +14,9 @@ namespace Pizzeria.Web.Controllers
         {
             var producto = new ProductoModel();
             producto.Id = 1;
+            producto.Id = 2;
             producto.Descripcion = "Pizza de 6 Quesos";
+            producto.Descripcion = "Pizza de jamo";
 
             return View(producto);
         }
